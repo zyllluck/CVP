@@ -3,11 +3,17 @@
 The 'CVP_inferring_causality.py' can be used to build the causal network by the CVP algorithm, and details of the parameters are shown below.
 ##Dependencies
 python 3.7 or later 
+
 numpy 1.2 or later 
+
 pingouin 0.3.10 or later 
+
 scipy 1.6.1 or later 
+
 pandas 1.0.3 or later 
+
 scikit-learn 1.0.2 or later
+
 ##Usage
 Run the main program
 python CVP_inferring_causality.py -m=m -infile=infile_name -threshold=thres -outfile=outfile_name
