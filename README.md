@@ -1,4 +1,4 @@
-# CVP-main
+# CVP algorithm
  This is source code for inferring causality by the CVP algorithm in python. The CVP is an algorithm for causal inference, the full name of which is "Causality inference based on cross-validation predictability ".
 The 'CVP_inferring_causality.py' can be used to build the causal network by the CVP algorithm, and details of the parameters are shown below.
 ## Dependencies
