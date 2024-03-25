@@ -22,7 +22,7 @@ python CVP_inferring_causality.py -m=m -infile=infile_name -threshold=thres -out
 
 -m: The parameter 'm' indicates the grouping for m-fold cross-validation. The default value is 3.
 
--threshold: The parameter 'threshold' is a correlation threshold produced by program 'pcc_threshold.py', the default threshold value is 0.
+-threshold: The parameter 'threshold' is a correlation threshold produced by program 'pcc_threshold.py'. A threshold of zero is recommended in the case of small samples, and large samples are retained with node degrees greater than one hundred.
 
 -infile: The parameter 'infile' indicates the file name for input. The input file is a data matrix that each row represents a sample and each column represents a variable. The file 'data_example.txt' is an example file for input file.
 
